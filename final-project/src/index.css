@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-primary: #0f766e;
+  --brand-secondary: #f97316;
+  --brand-accent: #06b6d4;
+}
+
+body {
+  @apply bg-neutral-light text-neutral-dark font-sans;
+}
+
+.container {
+  @apply mx-auto px-4 max-w-6xl;
+}
